@@ -11,7 +11,7 @@
 <body>
 	<h1>Add Employee</h1>
 	<form:form action = "${pageContext.request.contextPath}/save" modelAttribute="employee">
-		Enter First Name: <form:input path="first_name"/>
+		Enter First Name: <form:input path="first_name"/><br/>
 		Enter Last Name: <form:input path="last_name"/><br/>
 		Enter Level: 
 		<form:select path="level">
@@ -46,6 +46,7 @@
 			<form:option value="Security">Security</form:option>
 			<form:option value="Admin">Admin</form:option>
 			<form:option value="Cleaning and Health Safety">Cleaning and Health Safety</form:option>
+			<form:option value="Leadership">Leadership</form:option>
 		</form:select><br/>
 		
 		Position: 
