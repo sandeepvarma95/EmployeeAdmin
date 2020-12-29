@@ -9,6 +9,7 @@
 <title>Employee List</title>
 </head>
 <body>
+<a href="/logout">logout</a>
 <div align="center">
 	<h1>List of Employees</h1>
 	<table border="1" cellpadding="10">
